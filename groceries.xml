@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supermarket>
+    <name>Mercadona</name>
+    <address>Calle salado, s/n, Sevilla</address>
+    <geolocation>
+        <lat>37.3811</lat>
+        <lon>-5.9997</lon>
+    </geolocation>
+    <products>
+        <product>
+            <name>Helado de chocolate</name>
+            <offers>
+                <validity>Desde el 15/04/2023 al 20/04/2023</validity>
+                <discount>50%</discount>
+                <description>En todos los helados, siempre que sean de la misma marca</description>
+            </offers>
+            <usual>true</usual>
+            <qty>12</qty>
+            <unit>ud</unit>
+            <price>4.20</price>
+            <purchased>false</purchased>
+        </product>
+        <product>
+            <name>Queso de cabra</name>
+            <offers/>
+            <usual>false</usual>
+            <qty>1</qty>
+            <unit>gr</unit>
+            <price>3.85</price>
+            <purchased>true</purchased>
+        </product>
+        <product>
+            <name>Arroz basmati</name>
+            <offers>
+                <validity>Desde el 05/04/2023 al 10/04/2023</validity>
+                <discount>5%</discount>
+                <description>Por cada unidad, llevando un mínimo de 2 unidades</description>
+            </offers>
+            <usual>true</usual>
+            <qty>2</qty>
+            <unit>gr</unit>
+            <price>1.45</price>
+            <purchased>false</purchased>
+        </product>
+    </products>
+</supermarket>

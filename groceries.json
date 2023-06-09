@@ -1,0 +1,156 @@
+{
+    "supermarkets": [
+        {
+            "name": "Mercadona",
+            "address": "Calle salado, s/n, Sevilla",
+            "geolocation": {
+                "lat": 37.3811,
+                "lon": -5.9997
+            },
+            "products": [
+                {
+                    "name": "Helado de chocolate",
+                    "offers": [
+                        {
+                            "validity": "Desde el 15/04/2023 al 20/04/2023",
+                            "discount": "50%",
+                            "description": "En todos los helados, siempre que sean de la misma marca"
+                        }
+                    ],
+                    "usual": true,
+                    "qty": 12,
+                    "unit": "ud",
+                    "price": 4.20,
+                    "purchased": false
+                },
+                {
+                    "name": "Queso de cabra",
+                    "offers": [],
+                    "usual": false,
+                    "qty": 1,
+                    "unit": "gr",
+                    "price": 3.85,
+                    "purchased": true
+                },
+                {
+                    "name": "Arroz basmati",
+                    "offers": [
+                        {
+                            "validity": "Desde el 05/04/2023 al 10/04/2023",
+                            "discount": "5%",
+                            "description": "Por cada unidad, llevando un mínimo de 2 unidades"
+                        }
+                    ],
+                    "usual": true,
+                    "qty": 2,
+                    "unit": "gr",
+                    "price": 1.45,
+                    "purchased": false
+                }
+            ]
+        },
+        {
+            "name": "Carrefour",
+            "address": "Calle Poeta Muñoz San Román, s/n, Sevilla",
+            "geolocation": {
+                "lat": 37.3923,
+                "lon": -6.0311
+            },
+            "products": [
+                {
+                    "name": "Cerveza Alhambra 1925",
+                    "offers": [
+                        {
+                            "validity": "Desde el 02/04/2023 al 25/04/2023",
+                            "discount": "20%",
+                            "description": "Por cada pack comprado"
+                        },
+                        {
+                            "validity": "Desde el 02/04/2023 al 25/04/2023",
+                            "discount": "5%",
+                            "description": "Por cada unidad comprada"
+                        }
+                    ],
+                    "usual": false,
+                    "qty": 18,
+                    "unit": "ml",
+                    "price": 0.65,
+                    "purchased": false
+                },
+                {
+                    "name": "Pan de hamburguesa",
+                    "offers": [],
+                    "usual": true,
+                    "qty": 1,
+                    "unit": "gr",
+                    "price": 2.50,
+                    "purchased": false
+                },
+                {
+                    "name": "Cereales",
+                    "offers": [
+                        {
+                            "validity": "Desde el 15/04/2023 al 30/04/2023",
+                            "discount": "15%",
+                            "description": "Por unidad"
+                        }
+                    ],
+                    "usual": false,
+                    "qty": 2,
+                    "unit": "gr",
+                    "price": 3.60,
+                    "purchased": true
+                }
+            ]
+        },
+        {
+            "name": "Consum",
+            "address": "Calle Estación de Tranvías, 18-24, Granada",
+            "geolocation": {
+                "lat": 37.1436,
+                "lon": -3.6668
+            },
+            "products": [
+                {
+                    "name": "Leche de avena",
+                    "offers": [
+                        {
+                            "validity": "Desde el 01/04/2023 al 15/04/2023",
+                            "discount": "10%",
+                            "description": "Por cada unidad comprada. Llevando un mínimo de 3 unidades"
+                        }
+                    ],
+                    "usual": true,
+                    "qty": 12,
+                    "unit": "lt",
+                    "price": 1.60,
+                    "purchased": false
+                },
+                {
+                    "name": "Zumo de naranja",
+                    "offers": [],
+                    "usual": true,
+                    "qty": 3,
+                    "unit": "lt",
+                    "price": 1.25,
+                    "purchased": true
+                },
+                {
+                    "name": "Chocolate con avellanas",
+                    "offers": [
+                        {
+                            "validity": "Desde el 05/04/2023 al 10/04/2023",
+                            "discount": "25%",
+                            "description": "Por unidad"
+                        }
+                    ],
+                    "usual": false,
+                    "qty": 1,
+                    "unit": "gr",
+                    "price": 2.90,
+                    "purchased": false
+                }
+            ]
+        }
+    ]
+}
